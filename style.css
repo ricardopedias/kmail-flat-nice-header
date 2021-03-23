@@ -1,0 +1,104 @@
+html {
+    background-color: transparent !important;
+}
+
+body {
+    background-color: #444444 !important;
+    padding: 20px !important;
+    height: 100%;
+}
+
+hr {
+    border: 0 !important;
+    height: 0;
+    display: none !important;
+}
+
+div#headerbox {
+    background-color: white;
+    padding: 0 20px;
+    box-shadow: 1px 1px 6px -2px #000;
+    color: black !important;
+    border-radius:2px;
+    overflow: auto;
+    min-height: 300px;
+    border-top: 10px solid #cdcdcd;
+}
+
+div#subject {
+	color: #333;
+    font-size:130%;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    min-height: 10px;
+}
+
+div#photo {
+    float: left;
+    margin: 5px;
+}
+
+div#header-emails {
+    background: #eeeeee !important;
+    padding: 0 20px 15px 20px;
+    margin: 0 -20px 0 -20px;
+}
+
+div.table {
+    font-size: 70%;
+    display: table;
+    padding-top: 6px;
+    padding-right: 12px;
+}
+
+div.row {
+    display: table-row;
+}
+
+div.headerleft {
+    display: table-cell;
+    padding: 0.1em 1em;
+    color:#000;
+}
+
+div.headerright a {
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+div.headerright a:hover {
+    color: #333 !important;
+}
+
+div.headerrightdate {
+    display: table-cell;
+    padding: 0.1em;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+div#headerbox div div.inlineMessageError {
+    margin: 30px 5% -20px 5% ! important;
+}
+
+#kmailContent {
+    margin-top: 10px;
+    padding: 0px 20px 0 20px;
+    background-color: white;
+    /* border-top:1px solid #ddd; */
+}
+.htmlWarn{
+    font-size:70%;
+    background-color:#fdd;
+    color:#000;
+    width:80%;
+    border:0px solid #f00;
+    margin:0px 0px ! important;
+}
+
+#date{
+    font-size: 70%;
+    float: right;
+    vertical-align: top;
+}
